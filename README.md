@@ -35,7 +35,12 @@
 
     ``` PYTHON
     sudo apt-get update
-    sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+    
+    #set python3 default
+    
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150
+    ################################
     sudo apt-get install systemd nginx
     sudo pip3 install virtualenv
     ```
