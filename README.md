@@ -35,7 +35,7 @@
 
     ``` PYTHON
     sudo apt-get update
-    sudo apt-get install python3 python3-pip
+    sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
     sudo apt-get install systemd nginx
     sudo pip3 install virtualenv
     ```
